@@ -1,0 +1,5 @@
+-c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork -I ..\CORE -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\USER -I ..\HARDWARE\LED -I ..\HARDWARE\LCD -I ..\HARDWARE\KEY -I ..\HARDWARE\SRAM -I ..\HARDWARE\SDIO -I ..\MALLOC -I ..\USMART -I ..\HARDWARE\SPI -I ..\HARDWARE\W25QXX -I ..\FATFS\exfuns -I ..\FATFS\src -I ..\TEXT -I ..\FWLIB\inc -I ..\HARDWARE\oled -I ..\HARDWARE\beep -I ..\HARDWARE\button4_4 -I ..\HARDWARE\AS608 -I ..\HARDWARE\USART2 -I ..\HARDWARE\TIMER -I ..\HARDWARE\walkmotor -I ..\HARDWARE\RTC -I ..\HARDWARE\mfrcc522 -I ..\HARDWARE\USART3 -I ..\HARDWARE\STMFLASH
+-ID:\keil5555\packs\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include
+-ID:\keil5555\packs\Keil\STM32F4xx_DFP\2.14.0\Device\Include
+-D__UVISION_VERSION="539" -DSTM32F407xx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER
+-o ..\obj\usmart_str.o --omf_browse ..\obj\usmart_str.crf --depend ..\obj\usmart_str.d "..\USMART\usmart_str.c"
